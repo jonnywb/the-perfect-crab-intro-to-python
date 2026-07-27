@@ -92,8 +92,13 @@ add_one(add_one(add_one(add_one(add_one(add_one(1))))))
 # @TASK: Play around with building complex expressions in the space below.
 
 # EXPRESSIONS PLAYGROUND BEGINS
+def floor_divide_by_2(num):
+  return num // 2
 
+def times_by_3(num):
+  return num * 3
 
+print(floor_divide_by_2(times_by_3(2*12)))
 
 # EXPRESSIONS PLAYGROUND ENDS
 
